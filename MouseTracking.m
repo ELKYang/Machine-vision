@@ -1,4 +1,4 @@
- function MouseTracking()
+function MouseTracking()
     obj = setupSystemObjects();%读取视频，检测移动对象，并显示结果的系统对象obj
     tracks = initializeTracks(); %初始化轨道数组
     nextId = 1; 
@@ -179,4 +179,4 @@
         end
         obj.videoPlayer.step(frame);
     end
- end
+end
